@@ -31,7 +31,7 @@ a:hover {
 }
 
 #content-wrap {
-  padding-bottom: 10vh;    /* Footer height */
+  padding-bottom: 12vh;    /* Footer height */
 }
 
 button:focus {
@@ -284,6 +284,16 @@ button:focus {
     max-height: 30px;
 }
 
+.right-container {
+    padding-left: 30px;
+}
+
+@media screen and (max-width: 767px){
+    .right-container {
+        padding-left: 0;
+    }
+}
+
 /* RESUME */
 
 
@@ -294,10 +304,108 @@ button:focus {
 
 
 /* FOOTER */
-.black-footer {
+.black-footer-desktop {
     background-color: white;
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 10vh;
+    height: 12vh;
+    padding: 10px 0 10px 0;
+}
+
+#footer-desktop .container {
+    position: relative;
+    height: 100%;
+}
+
+#footer-desktop .copyright {
+    display: inline-block;
+    float: left;
+    padding: 20px 0 20px 0;
+}
+
+#footer-desktop .copyright p {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+#footer-desktop .contact {
+    position: relative;
+    display: inline-block;
+    float: right;
+    padding: 20px 0 20px 0;
+}
+
+#footer-desktop .contact-item {
+    display: inline-block;
+    text-align: center;
+    margin: 0 10px 0 10px;
+}
+
+#footer-desktop .social-icon {
+    max-height: 12px;
+}
+
+#footer-desktop .contact-item-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 0.8em;
+}
+
+#footer-desktop .contact-item-content {
+    font-weight: 300;
+    font-size: 0.8em;
+}
+
+@media screen and (max-width: 767px){
+    #footer-desktop {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px){
+    #footer-mobile {
+        display: none;
+    }
+}
+
+.black-footer-mobile {
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 12vh;
+    padding: 20px 0 10px 0;
+}
+
+#footer-mobile .social-icon {
+    max-height: 12px;
+}
+
+#footer-mobile .contact-item-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 0.8em;
+}
+
+#footer-mobile .contact-item-content {
+    font-weight: 300;
+    font-size: 0.8em;
+}
+
+#footer-mobile .copyright p {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+#footer-mobile .container {
+    height: 100%;
+}
+
+#footer-mobile .contact {
+    text-align: center;
+}
+
+#footer-mobile .copyright {
+    text-align: center;
 }
