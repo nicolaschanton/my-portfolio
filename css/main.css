@@ -299,31 +299,75 @@ button:focus {
     background-color: #E6DACE;
 }
 
+#presentation-resume .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#presentation-resume .blue-square {
+    width: 20px;
+    height: 20px;
+    background-color: #0050FF;
+}
+
+#presentation-resume .list-item {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+#presentation-resume .blue-square-bullet-point {
+    width: 10px;
+    height: 10px;
+    background-color: #0050FF;
+    margin: 7px 10px 15px 0;
+}
+
 #presentation-resume .resume-container-item {
     background-color: white;
     -webkit-box-shadow: 1px -1px 30px 1px rgba(0, 0, 0, 0.16);
     box-shadow: 1px -1px 30px 1px rgba(0, 0, 0, 0.16);
     display: flex;
     justify-content: center;
-    padding: 100px 50px 50px 50px;
+    padding: 50px 50px 30px 50px;
     margin: 30px 0 30px 0;
+}
+
+#presentation-resume .resume-container-item-skills {
+    background-color: white;
+    -webkit-box-shadow: 1px -1px 30px 1px rgba(0, 0, 0, 0.16);
+    box-shadow: 1px -1px 30px 1px rgba(0, 0, 0, 0.16);
+    justify-content: left;
+    padding: 50px 50px 30px 50px;
+    margin: 30px 0 30px 0;
+}
+
+#presentation-resume .skill-item-container {
+    height: 100%;
 }
 
 #presentation-resume .resume-container-item-date {
     width: 30%;
+    padding-right: 30px;
 }
 
 #presentation-resume .resume-container-item-text {
     width: 70%;
-    padding: 40px 0 0 40px;
 }
 
 #presentation-resume .title-text {
     text-align: center;
-    padding: 20px;
+    padding: 20px 20px 20px 10px;
 }
 
 #presentation-resume .resume-container-item-text p {
+    font-weight: 300;
+}
+
+#presentation-resume .resume-container-item-skills p {
     font-weight: 300;
 }
 
@@ -354,7 +398,7 @@ button:focus {
 }
 
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
     #presentation-resume .container {
         max-width: 90vw !important;
     }
