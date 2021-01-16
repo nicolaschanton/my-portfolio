@@ -428,7 +428,148 @@ button:focus {
 
 
 /* PROJECTS */
+#presentation-projects {
+    background-color: #E6DACE;
+}
 
+#presentation-projects .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#presentation-projects .blue-square {
+    width: 20px;
+    height: 20px;
+    background-color: #0050FF;
+}
+
+#presentation-projects .list-item {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+#presentation-projects .blue-square-bullet-point {
+    width: 10px;
+    height: 10px;
+    background-color: #0050FF;
+    margin: 7px 10px 15px 0;
+}
+
+#presentation-projects .projects-container-item {
+    background-color: white;
+    -webkit-box-shadow: 1px -1px 30px 1px rgba(0, 0, 0, 0.16);
+    box-shadow: 1px -1px 30px 1px rgba(0, 0, 0, 0.16);
+    display: flex;
+    justify-content: center;
+    padding: 50px 50px 30px 50px;
+    margin: 30px 0 30px 0;
+}
+
+#presentation-projects .projects-container-item-skills {
+    background-color: white;
+    -webkit-box-shadow: 1px -1px 30px 1px rgba(0, 0, 0, 0.16);
+    box-shadow: 1px -1px 30px 1px rgba(0, 0, 0, 0.16);
+    justify-content: left;
+    padding: 50px 50px 30px 50px;
+    margin: 30px 0 30px 0;
+}
+
+#presentation-projects .skill-item-container {
+    height: 100%;
+}
+
+#presentation-projects .projects-container-item-carousel {
+    width: 35%;
+}
+
+#presentation-projects .projects-container-item-text {
+    width: 65%;
+    padding-right: 30px;
+
+}
+
+#presentation-projects .title-text {
+    text-align: center;
+    padding: 20px 20px 20px 10px;
+}
+
+#presentation-projects .projects-container-item-text h3 {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #0050FF;
+}
+
+#presentation-projects .projects-container-item-text h4 {
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+#presentation-projects .projects-container-item-text p {
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
+#presentation-projects .projects-container-item-skills p {
+    font-weight: 300;
+}
+
+
+#presentation-projects .section-title h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#presentation-projects .container {
+    max-width: 70vw !important;
+}
+
+#presentation-projects .projects-container-item-carousel h3 {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #0050FF;
+}
+
+#presentation-projects .projects-container-item-carousel h4 {
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+#presentation-projects .projects-container-item-carousel p {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+    #presentation-projects .container {
+        max-width: 90vw !important;
+    }
+    #presentation-projects .title-text h1 {
+        font-size: 2em;
+    }
+    #presentation-projects .section-title h2 {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    #presentation-projects .projects-container-item {
+        display: block;
+        justify-content: center;
+        padding: 50px 20px 20px 20px;
+        margin: 20px 0 20px 0;
+    }
+    #presentation-projects .projects-container-item-carousel {
+        width: 100%;
+    }
+
+    #presentation-projects .projects-container-item-text {
+        width: 100%;
+        padding: 0;
+    }
+
+}
 
 /* NAVBAR */
 
