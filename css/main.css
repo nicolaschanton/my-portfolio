@@ -626,6 +626,12 @@ button:focus {
 
 }
 
+#presentation-projects .right-container-buttons-item {
+    display: inline-block;
+    min-height: 50px;
+    padding: 20px 0 40px 0;
+}
+
 /* NAVBAR */
 
 
