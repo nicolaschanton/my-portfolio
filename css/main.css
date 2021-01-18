@@ -36,7 +36,6 @@ a:hover {
 
 button:focus {
     outline: none;
-    border: none;
 }
 
 
@@ -47,6 +46,34 @@ button:focus {
     text-align: center;
     color: white;
     margin: 5px;
+    padding: 10px 30px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1em;
+}
+
+#presentation-projects .button-primary {
+    background-color: #0050FF;
+    border-radius: 20px;
+    border: solid #0050FF 2px;
+    text-align: center;
+    color: white;
+    margin: 5px 5px 5px 0;
+    padding: 10px 30px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1em;
+}
+
+#presentation-projects .button-primary:hover {
+    background-color: #0050FF;
+    border-radius: 20px;
+    border: solid #0050FF 2px;
+    text-align: center;
+    color: white;
+    margin: 5px 5px 5px 0;
     padding: 10px 30px;
     font-weight: 600;
     font-family: 'Lato', sans-serif;
@@ -75,6 +102,34 @@ button:focus {
     text-align: center;
     color: #0050FF;
     margin: 5px;
+    padding: 10px 30px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1em;
+}
+
+#presentation-projects .button-secondary {
+    background: none;
+    border-radius: 20px;
+    border: solid #0050FF 2px;
+    text-align: center;
+    color: #0050FF;
+    margin: 5px 5px 5px 0;
+    padding: 10px 30px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1em;
+}
+
+#presentation-projects .button-secondary:hover {
+    background: none;
+    border-radius: 20px;
+    border: solid #0050FF 2px;
+    text-align: center;
+    color: #0050FF;
+    margin: 5px 5px 5px 0;
     padding: 10px 30px;
     font-weight: 600;
     font-family: 'Lato', sans-serif;

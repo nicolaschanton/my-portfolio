@@ -21,7 +21,7 @@
     <meta name="twitter:card" content="summary_large_image">
 
     <!-- TITLE -->
-    <title>Nicolas Chanton | Welcome 👋</title>
+    <title>Nicolas Chanton | Projects</title>
 
     <!-- ICONS -->
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicon_io/apple-touch-icon.png">
@@ -60,10 +60,20 @@
                                     to deliver fast and frugal growth strategies skills.</p>
                         </div>
 
+                        <div class="right-container-buttons-item padding-top-20">
+                            <button onclick="filterSelection('All')" class="button-primary All filterButtons">Show All</button>
+                            <button onclick="filterSelection('Marketing')" class="button-secondary Marketing filterButtons">Marketing</button>
+                            <button onclick="filterSelection('DataScraping')" class="button-secondary DataScraping filterButtons">Data Scraping</button>
+                            <button onclick="filterSelection('DataEnrichmenVisualization')" class="button-secondary DataEnrichmenVisualization filterButtons">Data Enrichment & Visualization</button>
+                            <button onclick="filterSelection('WebsiteDevelopment')" class="button-secondary WebsiteDevelopment filterButtons">Website & API Development</button>
+                            <button onclick="filterSelection('UXUI')" class="button-secondary UXUI filterButtons">UX / UI</button>
+                        </div>
+
                         <div id="projects" class="padding-top-10 padding-bottom-20">
 
+                            <!-- MARKETING -->
                             <!-- MARKETING AUTOMATION -->
-                            <div id="marketingAutomationPlatform" data-tag="marketing" class="projects-container-item">
+                            <div id="marketingAutomationPlatform" class="projects-container-item filterDiv Marketing">
 
                                 <div class="projects-container-item-text">
                                     <h3>Marketing Automation Platform</h3>
@@ -119,6 +129,18 @@
                                     </div>
 
                                 </div>
+
+
+                            <!-- DATA SCRAPING -->
+
+
+                            <!-- DATA ENRICHMENT & VIZ -->
+
+
+                            <!-- WEBSITE & API DEVELOPMENT -->
+
+
+                            <!-- UX/UI -->
 
                         </div>
 
@@ -207,5 +229,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+    <!-- JS -->
+    <script src="js/lazysizes.min.js"></script>
+    <script src="js/filter_projects.js"></script>
 </body>
 </html>
