@@ -626,10 +626,14 @@ button:focus {
 
 }
 
+#presentation-projects .right-container-buttons {
+    padding: 20px 0 20px 0;
+}
+
 #presentation-projects .right-container-buttons-item {
     display: inline-block;
     min-height: 50px;
-    padding: 20px 0 40px 0;
+    padding: 10px 0 10px 0;
 }
 
 /* NAVBAR */
