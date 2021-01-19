@@ -21,7 +21,11 @@ function filterSelection(buttonChoice) {
         var i;
         for (i = 0; i < myDivs.length; i++) {
             myDiv = myDivs[i];
-            myDiv.style.display = 'flex';
+            if (window.screen.width <= 768) {
+                    myDiv.style.display = 'block';
+                } else {
+                    myDiv.style.display = 'flex';
+                }
         }
     } else {
         var c, myButtonClassList2;
@@ -43,7 +47,11 @@ function filterSelection(buttonChoice) {
             myDiv = myDivs[j];
             myClassList = myDiv.classList.value.split(" ");
             if (myClassList.includes(buttonChoice)) {
-                myDiv.style.display = 'flex';
+                if (window.screen.width <= 768) {
+                    myDiv.style.display = 'block';
+                } else {
+                    myDiv.style.display = 'flex';
+                }
             } else {
                 myDiv.style.display = 'none';
             }
