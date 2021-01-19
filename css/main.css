@@ -633,7 +633,44 @@ button:focus {
 }
 
 /* NAVBAR */
+.navbar {
+    min-height: 100px;
+}
 
+nav .blue-square {
+    width: 10px;
+    height: 10px;
+    background-color: #0050FF;
+    display: inline-block;
+}
+
+nav .title {
+    position: relative;
+}
+
+nav .title-text {
+    display: inline-block;
+}
+
+.navbar-brand {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700 !important;
+}
+
+.nav-item a {
+    font-family: 'Lato', sans-serif !important;
+    font-weight: 300 !important;
+    color: black !important;
+    margin-top: 5px;
+}
+
+.nav-link:hover {
+    color: #0050FF !important;
+}
+
+.active a {
+    color: #0050FF !important;
+}
 
 /* FOOTER */
 .black-footer-desktop {
