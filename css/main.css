@@ -649,6 +649,15 @@ button:focus {
     padding: 10px 0 10px 0;
 }
 
+.modal-content {
+    background: none;
+    border: none;
+}
+
+.modal-dialog {
+    max-width: 700px;
+}
+
 /* NAVBAR */
 .navbar {
     min-height: 100px;
